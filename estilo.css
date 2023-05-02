@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    
+}
+main{
+    margin: 0vh;
+}
+h1{
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+h2{
+    text-align: center;
+    padding-left: 60px;
+    display: inline-block;
+    position: relative;
+    
+    padding-top: 40px; 
+    font-family: Arial;
+    font-size: 17px;
+    color: rgb(204, 201, 201) ;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    padding-top: 10px;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+
+}
+p{
+    text-align: center;
+    color:rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.seccionuno{
+    
+    margin: 120px;
+    height: 650px;
+    padding-left: 150px;
+}
+
+.imguno{
+    
+    width: 450px;
+    border: 0px ;
+    border-radius: 20px;
+}
+.secciondos{
+    border: 1.5px solid rgb(204, 201, 201);
+    border-radius: 10px;
+    height: 500px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin: 120px;
+
+    
+}
+
+
+.redessociales{
+    display: flex;
+    justify-content: space-evenly; 
+    
+    
+}
+.rsuno{
+    width: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1.5px solid rgb(204, 201, 201);
+    border-radius: 10px;
+}
+.rsuno:hover{
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+}
+.rsuno{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+    
+.rsdos{
+    width: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1.5px solid rgb(204, 201, 201);
+    border-radius: 10px;  
+}
+.rsdos:hover{
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+}
+.rsdos{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+.rstres{
+    width: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1.5px solid rgb(204, 201, 201);
+    border-radius: 10px;
+}
+
+.rstres:hover{
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+}
+.rstres{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+    
+
+
+.secciondeinput{
+    display: flex;
+    
+    flex-direction: column;
+    width:max-content;
+    padding: 80px;
+
+}
+
+.divdebotones{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.botonuno{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+}
+.botonuno:hover{
+    transform: scale(1);
+    background-color: white;
+    border: 0;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color: black
+}
+
+.botonuno{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+
+.botondos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transform: scale(1);
+    background-color: white;
+    border: 0;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color: black;
+
+}
+.botondos:hover{
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+    
+}
+.botondos{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+.secciondeinput{
+    display: inline;
+    
+    
+}
+
+.inputuno{
+    
+    border: 1px solid  rgb(204, 201, 201);
+    border-radius: 10px;
+    color:  rgb(204, 201, 201);
+    padding: 10px;
+    width: 250px;
+}
+.inputdos{
+    
+    border: 1px solid  rgb(204, 201, 201);
+    border-radius: 10px;
+    color:  rgb(204, 201, 201);
+    padding: 10px;
+    width: 250px;
+}
+
+.divbotontres{
+    display: flex;
+    justify-content: center;
+}
+.botontres{
+    transform: scale(1);
+    background-color: rgb(255, 145, 0);
+    border: rgb(255, 145, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+}
+.botontres:hover{
+    transform: scale(1);
+    background-color: white;
+    border: 0;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    color: black;
+}
+
+.botontres{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+h2::after,h2::before{
+    content:"";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color:  rgb(204, 201, 201);
+    top: 50px;
+}
+#login-form input[type="password"],
+#login-form input[type="text"]{
+    width: 100px;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+
+}
+.password-conteiner{
+    width: 300px;
+    position: relative;
+}
+.bi-eye{
+    position:absolute;
+    top:77%;
+    right: 8.5%;
+}
+
+
+
+
+
+
+
+ h2::after{
+    right: 150px;
+ }
+ h2::before{
+    left: 205px ;
+
+ }
